@@ -1,4 +1,4 @@
-package com.pixonlab.swipecardview;
+package com.pixonlab.swipecardview.cards_wipe;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.pixonlab.swipecardview.Card;
+import com.pixonlab.swipecardview.R;
+
 import java.util.ArrayList;
 
 

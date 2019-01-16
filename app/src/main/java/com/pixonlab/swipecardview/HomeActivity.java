@@ -5,12 +5,18 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.pixonlab.swipecardview.card_swipe_fragment.CardSwipeWithFragment;
+import com.pixonlab.swipecardview.cards_wipe.CardSwipeActivity;
+import com.pixonlab.swipecardview.page_swipe.PageSwipeActivity;
+
 public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+
         findViewById(R.id.card_swipe_demo).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,4 +39,5 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
     }
+
 }

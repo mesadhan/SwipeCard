@@ -21,12 +21,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CardSwipeWithFragment" />
+        <activity android:name=".card_swipe_fragment.CardSwipeWithFragment" />
         <activity
-            android:name=".CardSwipeActivity"
+            android:name=".cards_wipe.CardSwipeActivity"
             android:label="@string/app_name" />
         <activity
-            android:name=".PageSwipeActivity"
+            android:name=".page_swipe.PageSwipeActivity"
             android:label="@string/app_name" />
     </application>
 

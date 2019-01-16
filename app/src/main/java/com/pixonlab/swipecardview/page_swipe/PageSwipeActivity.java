@@ -1,7 +1,11 @@
-package com.pixonlab.swipecardview;
+package com.pixonlab.swipecardview.page_swipe;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
+
+import com.pixonlab.swipecardview.Card;
+import com.pixonlab.swipecardview.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -27,6 +31,7 @@ public class PageSwipeActivity extends AppCompatActivity {
     flingContainer.setAdapter(arrayAdapter);
     flingContainer.setFlingListener(new SwipePageView.OnPageFlingListener() {
       @Override public void onAdapterAboutToEmpty(int itemsInAdapter) {
+
       }
 
       @Override public void onScroll(float scrollProgressPercent) {
@@ -39,7 +44,9 @@ public class PageSwipeActivity extends AppCompatActivity {
       }
     });
     flingContainer.setOnItemClickListener(new SwipePageView.OnItemClickListener() {
+
       @Override public void onItemClicked(int itemPosition, Object dataObject) {
+        Toast.makeText(getApplicationContext(), "Item Click", Toast.LENGTH_SHORT).show();
       }
     });
   }

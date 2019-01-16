@@ -1,8 +1,10 @@
-package com.pixonlab.swipecardview;
+package com.pixonlab.swipecardview.card_swipe_fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.pixonlab.swipecardview.R;
 
 /**
  * Created by arjun on 6/3/17.
